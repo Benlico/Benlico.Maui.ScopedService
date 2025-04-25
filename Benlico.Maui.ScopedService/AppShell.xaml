@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Benlico.Maui.ScopedService.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Benlico.Maui.ScopedService.Views"
+    Shell.FlyoutBehavior="Locked"
+    Title="Benlico.Maui.ScopedService">
+
+    <ShellContent Title="First Page" ContentTemplate="{DataTemplate local:FirstView}"/>
+    <ShellContent Title="Second Page" ContentTemplate="{DataTemplate local:SecondView}"/>
+    <ShellContent Title="Third Page" ContentTemplate="{DataTemplate local:ThirdView}"/>
+    
+</Shell>
